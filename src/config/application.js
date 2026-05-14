@@ -75,49 +75,6 @@ const appConfig = {
     },
   },
 
-  shop,
-
-  
-
-
-
-
-  features: {
-    
-    economy: true,                  
-    leveling: true,                 
-    moderation: true,               
-    logging: true,                  
-    welcome: true,                  
-
-    
-    tickets: true,                  
-    giveaways: true,                
-    birthday: true,                 
-    counter: true,                  
-
-    
-    verification: true,             
-    reactionRoles: true,            
-    joinToCreate: true,             
-
-    
-    voice: true,                    
-    search: true,                   
-    tools: true,                    
-    utility: true,                  
-    community: true,                
-    fun: true,                      
-
-    
-    music: false,                   
-  },
-
-  env: process.env.NODE_ENV || "development",
-  isProduction: process.env.NODE_ENV === "production",
-  isDevelopment: process.env.NODE_ENV !== "production",
-};
-
 Object.freeze(appConfig);
 
 export default appConfig;
