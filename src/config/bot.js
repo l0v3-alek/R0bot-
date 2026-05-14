@@ -27,7 +27,7 @@ export const botConfig = {
         // Text users will see (example: "Playing /help | Titan Bot").
         name: "Dieser Bot wurde für Jomaro erstellt.",
         // Activity type number (0 = Playing).
-        type: 0, 
+        type: 4, 
       },
     ],
   },
@@ -88,8 +88,8 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699", 
-      secondary: "#2F3136", 
+      primary: "#006400", 
+      secondary: "#ecebbd", 
 
       // Standard status colors for success/error/warning/info messages.
       success: "#57F287", 
